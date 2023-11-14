@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "guia-ne"
+version = "0.1.0"
+description = ""
+authors = ["Tiago Henrique <tiagohs.dev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "guia_ne"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scrapy = "^2.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
